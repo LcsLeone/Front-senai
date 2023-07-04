@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Container {
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  width: 100%;
+}
+
+.nav-bar .logo {
+  width: 100px;
+  display: flex;
+  margin-left: 15px;
+}
+
+.nav-bar .links_paginas ul {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+}
+
+.nav-bar ul li a{
+    background-color: #f7d61b;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.nav-bar ul li a:hover{
+    font-size: 20px;
+}
+
+.nav-bar .links_paginas ul :hover{
+    color: black;
+    text-shadow: 1px 5px 10px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.banner .banner-img{
+  width: 350px;
+}
+
+.about{
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.about .h2{
+  margin: 15px 0 15px ;
+  text-align: center;
+}
+
+.about h2, p{
+  text-align: justify;
+}
+
+
+/*-- Projetos --*/
+.projetos {
+  margin-top: 50
+  px;
+  text-align: center;
+}
+
+.projetos p{
+  text-align: center;
+}
+
+.projetos .cards {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+
+.projetos img{
+  width: 50%;
+}
