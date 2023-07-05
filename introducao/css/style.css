@@ -92,6 +92,33 @@
   padding: 100px 0;
 }
 
+.projetos .card:hover{
+  width: 1200px;
+}
+
 .projetos img{
   width: 50%;
+}
+
+.maps h1{
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe{
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.roda-pe{
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
 }
